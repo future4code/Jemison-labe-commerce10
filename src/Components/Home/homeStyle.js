@@ -3,8 +3,8 @@ import styled from "styled-components"
 
 export const Side  = styled.aside `
 display: flex;
-width: 100%;
-height: 95vh;
+width: 210px;
+min-height: 95vh;
 flex-direction: column;
 border: 1px solid black;
 padding: 10px;
@@ -19,7 +19,9 @@ input:hover{
     
 }
 
-
+select{
+ margin-top: 5px;
+}
 
 `
 
@@ -29,6 +31,7 @@ justify-content: space-between;
 width: 100%;
 height: 100%;
 border: 1px solid black;
+
 `
 
 

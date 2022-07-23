@@ -1,13 +1,17 @@
 import styled from "styled-components";
 
-
+export const Div = styled.div `
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+`
 
 export const Superior = styled.section `
     display: flex;
     justify-content: space-between;
     padding: 10px;
     align-items: center;
-
+    
     select {
         width: 100px;
 
